@@ -1,0 +1,87 @@
+body{
+background-color: black;
+font-family: serif;
+color: #efefef;
+}
+
+
+#ballet{
+  width:  300px;
+  height: 400px;
+  border-radius: 400px 400px 400px 400px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+#candle{
+  width:  300px;
+  height: 400px;
+  border-radius: 400px 400px 400px 400px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 600px;
+}
+
+#fox{
+  width:  300px;
+  height: 400px;
+  border-radius: 400px 400px 400px 400px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1000px;
+}
+
+ol{
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+  overflow:hidden;
+  background-color:#red;
+}
+li {
+  float: right;
+}
+li a, .dropbtn{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover ,.Techniques:hover .dropbtn{
+background-color: #90a3a7;
+border-radius: 20px;
+}
+
+li.Techniques{
+display: inline-block;
+}
+.Techniques-content{
+display: none;
+position: absolute;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0.2)
+}
+.Techniques-content a {
+color:white ;
+padding: 12px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.Techniques-content a:hover{
+background-color: #90a3a7;
+}
+.Techniques:hover .Techniques-content{
+  display: block;
+  border-radius: 20px;
+}
+
+footer{
+background-color: #90a4a5;
+position: absolute;
+margin-top: 900px;
+width: 1510px;
+}

@@ -1,0 +1,63 @@
+body{
+color:  #23303d;
+font-family: serif;
+}
+
+h1{
+background-color: #90a3a7;
+}
+
+h3{
+text-align: center;
+display: block;
+margin-right: 1000px;
+margin-top: 250px;;
+}
+
+form{
+background-color:#90a3a7;
+  width: 400px;
+  height: 250px;
+  display: block;
+  margin-top: -300px;
+  margin-left: 550px;
+  border-radius:300px 300px 0px 0px;
+  height: 500px;
+}
+
+
+#name{
+position: absolute;
+margin-top: 100px;
+margin-left: 120px;
+text-align: center;
+}
+
+#email{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 120px;
+  text-align: center;
+}
+
+#comment{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 80px;
+
+}
+
+#submit{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 150px;
+
+}
+
+footer{
+color: #efefef;
+background-color: #90a4a5;
+position: absolute;
+margin-top: 40px;
+width: 1510px;
+}
